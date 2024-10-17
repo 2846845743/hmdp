@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: hmdp
+  rabbitmq:
+    addresses: 117.72.91.159
+    username: guest
+    password: guest
+    port: 5672
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://117.72.91.159:13306/hmdp?useSSL=false&serverTimezone=UTC
